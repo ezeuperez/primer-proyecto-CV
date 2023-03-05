@@ -1,10 +1,4 @@
-
-const verMasBtn= document.getElementById("verMasBtn");
-const info= document.getElementById("info");
-verMasBtn.addEventListener("click", function(){
-   info.classList.toggle("hidden") 
-})
-/*estoy intentando que al ckliquear "ver mas" me despliegue texto function mostrarElemento() {
+function mostrarElemento() {
    var elemento = document.getElementById("mi-elemento");
    if (elemento.style.display === "none") {
      elemento.style.display = "block";
